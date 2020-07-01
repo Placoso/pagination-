@@ -1,0 +1,15 @@
+<!--貼在</body>前面-->
+<!-- 數字分頁 + Ajax 動態載入 start-->
+<script>//<![CDATA[
+var pageNav = {
+perPage: 5, // 每頁顯示的文章數
+numPages: 5, // 要顯示數字的按鈕數量
+ajax: "Y", // 頁面是否動態載入, 不要則改成 "N"
+firstText: "First",
+lastText: "Last",
+prevText: "« Previous",
+nextText: "Next »"
+};
+$.getScript("https://cdn.jsdelivr.net/gh/Placoso/pagination-/pagi_minified.js");
+//]]></script>
+<!-- 數字分頁 + Ajax 動態載入 end-->
